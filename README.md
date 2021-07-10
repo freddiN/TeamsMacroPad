@@ -23,7 +23,7 @@ Die Kommunikation läuft dabei über die serielle USB Verbindung vom Pad zu eine
 
 
 ## Anleitung
-- die Box bauen (=die beiden STLs von [thingiverse drucken] (https://www.thingiverse.com/thing:4905351) oder was eigenes klöppeln)
+- die Box bauen (=die beiden STLs von [thingiverse](https://www.thingiverse.com/thing:4905351) drucken oder was eigenes klöppeln)
 - Buttons mit dem Arduino verbinden (Wichtig: Buttons an Ground und den jeweiligen Digital-Input-Port anschliessen und als INPUT_PULLUP definieren!)
 - teams_mcropad_client.ino ggfs. anpassen und flashen (defaultmässig werden die Buttons an den digitalen Ports 2, 4 und 6 erwartet)
 - Im Arduino Serial Monitor sollten beim Druck auf die Buttons jetzt die Strings TOGGLE_BUTTON_1/2/3 erscheinen
