@@ -1,0 +1,23 @@
+{
+	"serial": {
+		"port": "COM3",
+		"baudrate": 115200
+	},
+	"mapping": {
+		"TOGGLE_BUTTON_1": {
+			"shift": true,
+			"control": true,
+			"virtual_key": "VK_O"
+		},
+		"TOGGLE_BUTTON_2": {
+			"shift": true,
+			"control": true,
+			"virtual_key": "VK_M"
+		},
+		"TOGGLE_BUTTON_3": {
+			"shift": true,
+			"control": true,
+			"virtual_key": "VK_B"
+		}
+	}
+}
